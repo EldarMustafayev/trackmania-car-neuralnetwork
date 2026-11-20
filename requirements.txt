@@ -1,0 +1,5 @@
+numpy                  # fast array math for waypoints and observations
+gymnasium              # standard RL environment API (our TMEnv implements it)
+stable-baselines3      # PPO implementation (pulls in PyTorch)
+pydirectinput          # sends the Enter key presses that restart the race after a finish (Windows)
+torch               # neural-network library used by stable-baselines3
